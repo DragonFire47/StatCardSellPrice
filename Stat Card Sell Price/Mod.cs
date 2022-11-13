@@ -10,6 +10,8 @@ namespace StatCardSellPrice
 
         public override string Name => "StatCardSellPrice";
 
+        public override string LongDescription => "Displays sell price for components and items.";
+
         public override string HarmonyIdentifier()
         {
             return $"{Author}.{Name}";
